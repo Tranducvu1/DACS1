@@ -1,0 +1,126 @@
+.main {
+    min-width: 0;
+    width: 100%;
+    padding-top: 120px;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.first-screen {
+    max-width: 1920px;
+    margin: 0 auto 99px;
+    height: 800px;
+    padding: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.first-screen__left {
+    width: 120px;
+    flex-grow: 0;
+    -ms-flex-grow: 0;
+    position: relative;
+    z-index: 2;
+}
+.slider-count__text {
+    display: block;
+}
+.slider-count {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    text-align: center;
+    font: 600 16px/1 'Josefin Sans',sans-serif;
+    color: #000;
+}
+.first-screen__socials {
+    width: 100%;
+    position: absolute;
+    top: 31.8%;
+    left: 0;
+}
+
+ul {
+    padding: 0 0 21px;
+}
+.side-socials__item {
+    margin: 0 0 12px;
+    padding: 0 0 12px;
+    position: relative;
+}
+ul li {
+    list-style: none;
+}
+.first-screen__center {
+    width: 100%;
+    min-width: 0;
+    margin: 0px 100px 100px 200px;
+}
+.main-slider {
+    position: relative;
+}
+.main-slider__list-wrap {
+    margin: 0 -150px 0 0;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.main-slider__list {
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    padding: 100px;
+    margin: 100px 50px 70px 100px;
+}
+.slick-slider .slick-list, .slick-slider .slick-track {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.main-slider__list .slick-list, .main-slider__list .slick-track {
+    overflow: visible!important;
+}
+.slick-track:before {
+    display: table;
+    content: '';
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-slider .slick-track {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+}
+
+.main-slider__list .slick-list, .main-slider__list .slick-track {
+    overflow: visible!important;
+}
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
